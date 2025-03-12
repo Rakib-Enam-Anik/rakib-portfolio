@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import Awards from "./pages/Awards";
+import Certification from "./pages/Certifications";
 import Education from "./pages/Education";
 import Experience from "./pages/Experience";
 import Interest from "./pages/Interest";
@@ -12,7 +12,7 @@ const App = () => {
     <BrowserRouter basename="/rakib-portfolio">
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/awards" element={<Awards />} />
+        <Route path="/certifications" element={<Certification />} />
         <Route path="/education" element={<Education />} />
         <Route path="/experience" element={<Experience />} />
         <Route path="/interests" element={<Interest />} />

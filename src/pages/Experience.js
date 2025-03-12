@@ -11,66 +11,50 @@ const Experience = () => {
             <h2 class="mb-5">Experience</h2>
             <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
               <div class="flex-grow-1">
+                <h3 class="mb-0">Founder & CEO </h3>
+                <div class="subheading mb-3">Arteous Solutions BD </div>
+                <p>
+                Software Development, Consultancy and Maintenance.
+                </p>
+              </div>
+              <div class="flex-shrink-0">
+                <span class="text-primary">April 2025 - Present</span>
+              </div>
+            </div>
+            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+              <div class="flex-grow-1">
                 <h3 class="mb-0">Software Engineer</h3>
-                <div class="subheading mb-3">Teamexus  Solutions Ltd. </div>
+                <div class="subheading mb-3"> Teamexus Solutions Ltd. </div>
                 <p>
-                  Bring to the table win-win survival strategies to ensure
-                  proactive domination. At the end of the day, going forward, a
-                  new normal that has evolved from generation X is on the runway
-                  heading towards a streamlined cloud solution. User generated
-                  content in real-time will have multiple touchpoints for
-                  offshoring.
+                Teamexus Solutions Ltd. is a software development company that provides innovative solutions to help businesses increase efficiency and productivity. It was founded with the goal of providing cutting-edge technology solutions to meet the evolving needs of businesses in the digital age.
                 </p>
               </div>
               <div class="flex-shrink-0">
-                <span class="text-primary">March 2022 - Present</span>
+                <span class="text-primary">March 2022 - March 2025</span>
               </div>
             </div>
             <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
               <div class="flex-grow-1">
-                <h3 class="mb-0">Web Developer</h3>
-                <div class="subheading mb-3">Arteous Solutions Ltd. </div>
+                <h3 class="mb-0">Coordinator</h3>
+                <div class="subheading mb-3">Startup Rangpur</div>
                 <p>
-                  Capitalize on low hanging fruit to identify a ballpark value
-                  added activity to beta test. Override the digital divide with
-                  additional clickthroughs from DevOps. Nanotechnology immersion
-                  along the information highway will close the loop on focusing
-                  solely on the bottom line.
+                Startup Rangpur provides entrepreneurship resources and connects the entrepreneurs with the local and global network.
                 </p>
               </div>
               <div class="flex-shrink-0">
-                <span class="text-primary">January 2020 - February 2022</span>
-              </div>
-            </div>
-            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-              <div class="flex-grow-1">
-                <h3 class="mb-0">Junior Web Developer</h3>
-                <div class="subheading mb-3">Stratagem</div>
-                <p>
-                  Podcasting operational change management inside of workflows
-                  to establish a framework. Taking seamless key performance
-                  indicators offline to maximise the long tail. Keeping your eye
-                  on the ball while performing a deep dive on the start-up
-                  mentality to derive convergence on cross-platform integration.
-                </p>
-              </div>
-              <div class="flex-shrink-0">
-                <span class="text-primary">September 2018 - December 2019</span>
+                <span class="text-primary">April 2021 - Present</span>
               </div>
             </div>
             <div class="d-flex flex-column flex-md-row justify-content-between">
               <div class="flex-grow-1">
-                <h3 class="mb-0">Web Developer Intern</h3>
-                <div class="subheading mb-3">Stratagem</div>
+                <h3 class="mb-0">Junior Executive</h3>
+                <div class="subheading mb-3">BRAC University Computer Club</div>
                 <p>
-                  Collaboratively administrate empowered markets via
-                  plug-and-play networks. Dynamically procrastinate B2C users
-                  after installed base benefits. Dramatically visualize customer
-                  directed convergence without revolutionary ROI.
+                As a student of CSE at BRACU. I joined this club, which increases my CS knowledge and leadership quality.
                 </p>
               </div>
               <div class="flex-shrink-0">
-                <span class="text-primary">May 2018 - August 2018</span>
+                <span class="text-primary">Jan 2017 - December 2019</span>
               </div>
             </div>
           </div>

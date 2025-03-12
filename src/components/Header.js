@@ -56,8 +56,8 @@ const Header = () => {
               </Link>
             </li>
             <li class="nav-item">
-              <Link class="nav-link js-scroll-trigger" to="/awards">
-                Awards
+              <Link class="nav-link js-scroll-trigger" to="/certifications">
+                Certifications
               </Link>
             </li>
           </ul>
