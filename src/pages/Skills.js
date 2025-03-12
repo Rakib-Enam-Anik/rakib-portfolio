@@ -9,80 +9,82 @@ const Skills = () => {
         <section class="resume-section" id="skills">
           <div class="resume-section-content">
             <h2 class="mb-5">Skills</h2>
-            <div class="subheading mb-3">Programming Languages & Tools</div>
+            <div class="subheading mb-3">Programming Languages </div>
             <ul class="fa-ul mb-0">
               <li>
                 <span class="fa-li">
                   <i class="fas fa-check"></i>
                 </span>
-                GeneXus
+                JavaScript, Python, Php, Java
               </li>
+            </ul>
+
+            <div class="subheading mb-3">FrameWork</div>
+            <ul class="fa-ul mb-0">
               <li>
                 <span class="fa-li">
                   <i class="fas fa-check"></i>
                 </span>
-                Html,Css
-              </li>
-              <li>
-                <span class="fa-li">
-                  <i class="fas fa-check"></i>
-                </span>
-                JavaScript, React Js, Node Js, Typescript, Express Js
-              </li>
-              <li>
-                <span class="fa-li">
-                  <i class="fas fa-check"></i>
-                </span>
-                Php, Laravel
-              </li>
-              <li>
-                <span class="fa-li">
-                  <i class="fas fa-check"></i>
-                </span>
-                Python, Django
-              </li>
-              <li>
-                <span class="fa-li">
-                  <i class="fas fa-check"></i>
-                </span>
-                SQL, MySQL, Postgress SQL, MongoDB
-              </li>
-              <li>
-                <span class="fa-li">
-                  <i class="fas fa-check"></i>
-                </span>
-                Tools : Vs Code, Git, Github
+                Django, GeneXus, React.js, Bootstrap, Django-rest-framework
               </li>
               
             </ul>
 
-            
-            <div class="subheading mb-3">Workflow</div>
+            <div class="subheading mb-3">Database</div>
             <ul class="fa-ul mb-0">
               <li>
                 <span class="fa-li">
                   <i class="fas fa-check"></i>
                 </span>
-                Mobile-First, Responsive Design
+                MySQL, SQLite, PostgreSQL
               </li>
+              
+            </ul>
+
+            <div class="subheading mb-3">CMS</div>
+            <ul class="fa-ul mb-0">
               <li>
                 <span class="fa-li">
                   <i class="fas fa-check"></i>
                 </span>
-                Cross Browser Testing & Debugging
+                WordPress
               </li>
+              
+            </ul>
+
+            <div class="subheading mb-3">Testing</div>
+            <ul class="fa-ul mb-0">
               <li>
                 <span class="fa-li">
                   <i class="fas fa-check"></i>
                 </span>
-                Cross Functional Teams
+                Manual Testing, Unit Testing
               </li>
+              
+            </ul>
+            <div class="subheading mb-3">Project Management Software</div>
+            <ul class="fa-ul mb-0">
               <li>
                 <span class="fa-li">
                   <i class="fas fa-check"></i>
                 </span>
-                Agile Development & Scrum
+                Backlog, Task Time Tracking(TTT)
               </li>
+              
+            </ul>
+         
+          
+
+            
+            <div class="subheading mb-3">Others</div>
+            <ul class="fa-ul mb-0">
+              <li>
+                <span class="fa-li">
+                  <i class="fas fa-check"></i>
+                </span>
+                VS Code, Git, Linux, Postman, Figma, Firebase, Draw.io, Wireframing 
+              </li>
+              
             </ul>
           </div>
         </section>

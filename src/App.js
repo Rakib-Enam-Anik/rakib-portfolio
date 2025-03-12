@@ -7,21 +7,20 @@ import Experience from "./pages/Experience";
 import Interest from "./pages/Interest";
 import Skills from "./pages/Skills";
 
-const  App = () => {
-  return <div>
-    <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/awards" element={<Awards />} />
-      <Route path="/education" element={<Education />} />
-      <Route path="/experience" element={<Experience />} />
-      <Route path="/interests" element={<Interest />} />
-      <Route path="/skills" element={<Skills />} />
-      
-    </Routes>
+const App = () => {
+  return (
+    <BrowserRouter basename="/rakib-portfolio">
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/awards" element={<Awards />} />
+        <Route path="/education" element={<Education />} />
+        <Route path="/experience" element={<Experience />} />
+        <Route path="/interests" element={<Interest />} />
+        <Route path="/skills" element={<Skills />} />
+      </Routes>
     </BrowserRouter>
-  </div>
-    
+  );
 };
 
 export default App;
+
