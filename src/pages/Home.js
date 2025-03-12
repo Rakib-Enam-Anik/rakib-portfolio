@@ -113,6 +113,16 @@ const Home = () => {
                 <span class="text-primary">2013 - 2015</span>
               </div>
             </div>
+            <div class="d-flex flex-column flex-md-row justify-content-between">
+              <div class="flex-grow-1">
+                <h3 class="mb-0">Cantonment Public School and College,Rangpur.</h3>
+                <div class="subheading mb-3">Secondary</div>
+                <p>Science</p>
+              </div>
+              <div class="flex-shrink-0">
+                <span class="text-primary">2011 - 2013</span>
+              </div>
+            </div>
           </div>
         </section>
         <hr class="m-0" />
@@ -120,75 +130,86 @@ const Home = () => {
         <section class="resume-section" id="skills">
           <div class="resume-section-content">
             <h2 class="mb-5">Skills</h2>
-            <div class="subheading mb-3">Programming Languages & Tools</div>
-            <ul class="list-inline dev-icons">
-              <li class="list-inline-item">
-                <i class="fab fa-html5"></i>
-              </li>
-              <li class="list-inline-item">
-                <i class="fab fa-css3-alt"></i>
-              </li>
-              <li class="list-inline-item">
-                <i class="fab fa-js-square"></i>
-              </li>
-              <li class="list-inline-item">
-                <i class="fab fa-angular"></i>
-              </li>
-              <li class="list-inline-item">
-                <i class="fab fa-react"></i>
-              </li>
-              <li class="list-inline-item">
-                <i class="fab fa-node-js"></i>
-              </li>
-              <li class="list-inline-item">
-                <i class="fab fa-sass"></i>
-              </li>
-              <li class="list-inline-item">
-                <i class="fab fa-less"></i>
-              </li>
-              <li class="list-inline-item">
-                <i class="fab fa-wordpress"></i>
-              </li>
-              <li class="list-inline-item">
-                <i class="fab fa-gulp"></i>
-              </li>
-              <li class="list-inline-item">
-                <i class="fab fa-grunt"></i>
-              </li>
-              <li class="list-inline-item">
-                <i class="fab fa-npm"></i>
-              </li>
-            </ul>
-            <div class="subheading mb-3">Workflow</div>
+            <div class="subheading mb-3">Programming Languages </div>
             <ul class="fa-ul mb-0">
               <li>
                 <span class="fa-li">
                   <i class="fas fa-check"></i>
                 </span>
-                Mobile-First, Responsive Design
+                JavaScript, Python, Php, Java
               </li>
+            </ul>
+
+            <div class="subheading mb-3">FrameWork</div>
+            <ul class="fa-ul mb-0">
               <li>
                 <span class="fa-li">
                   <i class="fas fa-check"></i>
                 </span>
-                Cross Browser Testing & Debugging
+                Django, GeneXus, React.js, Bootstrap, Django-rest-framework
               </li>
+              
+            </ul>
+
+            <div class="subheading mb-3">Database</div>
+            <ul class="fa-ul mb-0">
               <li>
                 <span class="fa-li">
                   <i class="fas fa-check"></i>
                 </span>
-                Cross Functional Teams
+                MySQL, SQLite, PostgreSQL
               </li>
+              
+            </ul>
+
+            <div class="subheading mb-3">CMS</div>
+            <ul class="fa-ul mb-0">
               <li>
                 <span class="fa-li">
                   <i class="fas fa-check"></i>
                 </span>
-                Agile Development & Scrum
+                WordPress
               </li>
+              
+            </ul>
+
+            <div class="subheading mb-3">Testing</div>
+            <ul class="fa-ul mb-0">
+              <li>
+                <span class="fa-li">
+                  <i class="fas fa-check"></i>
+                </span>
+                Manual Testing, Unit Testing
+              </li>
+              
+            </ul>
+            <div class="subheading mb-3">Project Management Software</div>
+            <ul class="fa-ul mb-0">
+              <li>
+                <span class="fa-li">
+                  <i class="fas fa-check"></i>
+                </span>
+                Backlog, Task Time Tracking(TTT)
+              </li>
+              
+            </ul>
+         
+          
+
+            
+            <div class="subheading mb-3">Others</div>
+            <ul class="fa-ul mb-0">
+              <li>
+                <span class="fa-li">
+                  <i class="fas fa-check"></i>
+                </span>
+                VS Code, Git, Linux, Postman, Figma, Firebase, Draw.io, Wireframing 
+              </li>
+              
             </ul>
           </div>
         </section>
-        <hr class="m-0" />  
+        <hr class="m-0" />
       </div>
     </>
   );

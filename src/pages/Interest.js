@@ -4,53 +4,46 @@ import Header from "../components/Header";
 const interests = [
   {
     title: "Programming",
-    images: [
-      "/images/programming/Rakib.JPEG",
-      "/images/interests/programming2.jpg",
-      "/images/interests/programming3.jpg"
-    ],
-    description: "I love solving problems and building applications using various programming languages and frameworks."
+    images: ["./images/programming/programming.jpg"],
+    description:
+      "I love solving problems and building applications using various programming languages and frameworks.",
   },
   {
     title: "Traveling",
     images: [
-      "/images/interests/traveling1.jpg",
-      "/images/interests/traveling2.jpg",
-      "/images/interests/traveling3.jpg"
+      "./images/traveling/traveling.jpg",
     ],
-    description: "Exploring new places, experiencing different cultures, and meeting new people is something I truly enjoy."
+    description:
+      "Exploring new places, experiencing different cultures, and meeting new people is something I truly enjoy.",
   },
   {
     title: "Reading Books",
     images: [
-      "/images/interests/reading1.jpg",
-      "/images/interests/reading2.jpg"
+      "./images/readingbooks/readingbooks.jpg",
+     
     ],
-    description: "Books expand knowledge and imagination. I enjoy reading tech books, fiction, and historical novels."
+    description:
+      "Books expand knowledge and imagination. I enjoy reading tech books, fiction, and historical novels.",
   },
   {
     title: "Music",
-    images: [
-      "/images/interests/music1.jpg",
-      "/images/interests/music2.jpg"
-    ],
-    description: "Music helps me relax and focus. I enjoy a variety of genres, from classical to rock and lo-fi beats."
+    images: ["./images/music/music.jpg", "/images/interests/music2.jpg"],
+    description:
+      "Music helps me relax and focus. I enjoy a variety of genres, from classical to rock and lo-fi beats.I love to listen bangla music.",
   },
   {
     title: "Politics",
     images: [
-      "/images/interests/politics1.jpg",
-      "/images/interests/politics2.jpg"
+      "./images/politics/politics.jpg",
     ],
-    description: "Understanding politics and its impact on society is important to me. I like to stay informed about global affairs."
+    description:
+      "Understanding politics and its impact on society is important to me. I like to stay informed about global affairs.",
   },
   {
     title: "Debate",
-    images: [
-      "/images/interests/debate1.jpg",
-      "/images/interests/debate2.jpg"
-    ],
-    description: "I enjoy debating on various topics, analyzing different perspectives, and refining my critical thinking skills."
+    images: ["./images/debate/debate.jpg", "/images/interests/debate2.jpg"],
+    description:
+      "I enjoy debating on various topics, analyzing different perspectives, and refining my critical thinking skills.",
   },
 ];
 
@@ -67,19 +60,49 @@ const Interest = () => {
                 <div key={index} className="col-md-4 mb-4">
                   <div className="card shadow-sm">
                     {/* Bootstrap Carousel for multiple images */}
-                    <div id={`carousel-${index}`} className="carousel slide" data-bs-ride="carousel">
+                    <div
+                      id={`carousel-${index}`}
+                      className="carousel slide"
+                      data-bs-ride="carousel"
+                    >
                       <div className="carousel-inner">
                         {interest.images.map((img, imgIndex) => (
-                          <div key={imgIndex} className={`carousel-item ${imgIndex === 0 ? "active" : ""}`}>
-                            <img src={img} alt={interest.title} className="d-block w-100" style={{ height: "150px", objectFit: "cover" }} />
+                          <div
+                            key={imgIndex}
+                            className={`carousel-item ${
+                              imgIndex === 0 ? "active" : ""
+                            }`}
+                          >
+                            <img
+                              src={img}
+                              alt={interest.title}
+                              className="d-block w-100"
+                              style={{ height: "150px", objectFit: "cover" }}
+                            />
                           </div>
                         ))}
                       </div>
-                      <button className="carousel-control-prev" type="button" data-bs-target={`#carousel-${index}`} data-bs-slide="prev">
-                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <button
+                        className="carousel-control-prev"
+                        type="button"
+                        data-bs-target={`#carousel-${index}`}
+                        data-bs-slide="prev"
+                      >
+                        <span
+                          className="carousel-control-prev-icon"
+                          aria-hidden="true"
+                        ></span>
                       </button>
-                      <button className="carousel-control-next" type="button" data-bs-target={`#carousel-${index}`} data-bs-slide="next">
-                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                      <button
+                        className="carousel-control-next"
+                        type="button"
+                        data-bs-target={`#carousel-${index}`}
+                        data-bs-slide="next"
+                      >
+                        <span
+                          className="carousel-control-next-icon"
+                          aria-hidden="true"
+                        ></span>
                       </button>
                     </div>
 
@@ -100,7 +123,3 @@ const Interest = () => {
 };
 
 export default Interest;
-
-
-
-

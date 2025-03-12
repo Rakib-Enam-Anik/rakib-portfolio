@@ -11433,3 +11433,11 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+.social-icon-img {
+  width: 40px; /* Adjust the size */
+  height: 40px; /* Adjust the size */
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #000; /* Optional: adds border to round shape */
+  margin: 5px; /* Space between icons */
+}

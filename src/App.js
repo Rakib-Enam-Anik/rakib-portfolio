@@ -9,7 +9,7 @@ import Skills from "./pages/Skills";
 
 const App = () => {
   return (
-    <BrowserRouter basename="/rakib-portfolio">
+    <BrowserRouter basename="/rakib-portfolio/">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/certifications" element={<Certification />} />

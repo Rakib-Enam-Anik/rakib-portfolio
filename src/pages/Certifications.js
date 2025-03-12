@@ -6,31 +6,31 @@ const certifications = [
     title: "JavaScript Intermediate",
     CredentialId: "CC-4XMWYVLD",
     link: "https://www.sololearn.com/en/certificates/CC-4XMWYVLD",
-    image: "/images/certifications/javascriptintermediate.png",
+    image: "./images/certifications/javascriptintermediate.jpg",
   },
   {
     title: "SQL Intermediate",
     CredentialId: "CC-ICAZHSEL",
     link: "https://www.sololearn.com/en/certificates/CC-ICAZHSEL",
-    image: "/images/certifications/sqlintermediate.jpg",
+    image: "./images/certifications/sqlintermediate.jpg",
   },
   {
     title: "PHP",
     CredentialId: "CT-JMUP7AWAY",
     link: "https://www.sololearn.com/en/certificates/CT-JMUP7AWY",
-    image: "/images/certifications/php.jpg",
+    image: "./images/certifications/php.jpg",
   },
   {
     title: "GeneXus 17 Junior Analyst",
     CredentialId: "120247",
     link: "https://training.genexus.com/en/learning/certifications/certified-technicians2",
-    image: "/images/certifications/genexus.jpg",
+    image: "./images/certifications/genexus.jpg",
   },
   {
     title: "Python (Basic) Certificate",
     CredentialId: "ODD36C835ABD",
     link: "https://www.hackerrank.com/certificates/0dd36c835abd",
-    image: "/images/certifications/tech-competition.jpg",
+    image: "./images/certifications/pythonbasic.jpg",
   },
   
 ];
