@@ -6,6 +6,7 @@ import Education from "./pages/Education";
 import Experience from "./pages/Experience";
 import Interest from "./pages/Interest";
 import Skills from "./pages/Skills";
+import Projects from "./pages/Projects";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Route path="/experience" element={<Experience />} />
         <Route path="/interests" element={<Interest />} />
         <Route path="/skills" element={<Skills />} />
+        <Route path="/projects" element={<Projects />} />
       </Routes>
     </BrowserRouter>
   );
