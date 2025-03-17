@@ -32,6 +32,34 @@ const Projects = () => {
       link: "https://example.com/fs-project2",
       github: "https://github.com/yourgithub/fs-project2",
     },
+    {
+      title: "Burger Builder",
+      image: "fs_project2.jpg",
+      description: "A real-time chat application built with Django & Next.js.",
+      link: "https://example.com/fs-project2",
+      github: "https://github.com/yourgithub/fs-project2",
+    },
+    {
+      title: "Project Management System",
+      image: "fs_project2.jpg",
+      description: "A real-time chat application built with Django & Next.js.",
+      link: "https://example.com/fs-project2",
+      github: "https://github.com/yourgithub/fs-project2",
+    },
+    {
+      title: "Employee Management System",
+      image: "fs_project2.jpg",
+      description: "A real-time chat application built with Django & Next.js.",
+      link: "https://example.com/fs-project2",
+      github: "https://github.com/yourgithub/fs-project2",
+    },
+    {
+      title: "HatSodai",
+      image: "fs_project2.jpg",
+      description: "A real-time chat application built with Django & Next.js.",
+      link: "https://example.com/fs-project2",
+      github: "https://github.com/yourgithub/fs-project2",
+    },
   ];
 
   return (
